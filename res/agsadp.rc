@@ -1,0 +1,28 @@
+#include <windows.h> // include for version info constants
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILETYPE VFT_DLL
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "080904E4"
+		 {
+			 VALUE "CompanyName", ""
+			 VALUE "FileVersion", "1.0.0"
+			 VALUE "FileDescription", "Emulated adlib playback for AGS"
+			 VALUE "InternalName", "agsadp"
+			 VALUE "LegalCopyright", "by Ferry ""Wyz"" Timmers, June 2014"
+			 VALUE "LegalTrademarks", "Licensed zlib"
+			 VALUE "OriginalFilename", "agsadp.dll"
+			 VALUE "ProductName", "AGS Adlib Plugin"
+			 VALUE "ProductVersion", "1.0"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0809, 1252
+	 }
+}
+
